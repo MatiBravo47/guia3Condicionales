@@ -9,7 +9,7 @@ if (numero > 0 )
 }  
 else  
 {  
-resultado = "El numero es cero o negativo";  
+  resultado = "El numero es cero o negativo";  
 }  
 
 Operador ternario
