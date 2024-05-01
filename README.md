@@ -3,7 +3,7 @@
 Operador if-else
 
 Ejemplo: 
-if (numero > 0 )
+if (numero > 0 )  
 {
   resultado = "El numero es positivo";
 }
