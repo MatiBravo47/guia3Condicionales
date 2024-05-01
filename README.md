@@ -4,13 +4,13 @@ Operador if-else
 
 Ejemplo: 
 if (numero > 0 )  
-{
-  resultado = "El numero es positivo";
-}
-else
-{
-resultado = "El numero es cero o negativo";
-}
+{  
+  resultado = "El numero es positivo";  
+}  
+else  
+{  
+resultado = "El numero es cero o negativo";  
+}  
 
 Operador ternario
 
