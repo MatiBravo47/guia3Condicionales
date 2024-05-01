@@ -19,7 +19,7 @@ namespace Guia3
             b)Variables: int (edad)
             c)Condicionales: if-else
             */
-            
+
             /*
             int edad;
             string resultado;
@@ -29,7 +29,7 @@ namespace Guia3
             Console.WriteLine(resultado);
             Console.ReadLine();
             */
-            
+
             /*
              2)Control de acceso:
              a)Pregunta: Ingresa tu nombre y edad para determinar si puedes acceder 
@@ -56,7 +56,102 @@ namespace Guia3
             }
             Console.ReadLine();
             */
-            
+
+            /*
+             * 3)Descuento de edad en cine:
+             * Pregunta: Ingresa tu edad para determinar si tiene derecho a un aumento
+             * Variables: int (edad)
+             * Condicionales: if-else
+             */
+
+            /*
+             * 4)Calificacion aprobatoria:
+             * Pregunta: Ingresa tu califacion para saber si has aprobado
+             * Variables: double (calificacion)
+             * Condicionales: if-else
+             */
+            /*
+            double calificacion;
+            Console.WriteLine("Ingresa tu calificacion");
+            calificacion = double.Parse(Console.ReadLine());
+            if (calificacion >= 4)
+            {
+                Console.WriteLine("Has aprobado");
+            }
+            else
+            {
+                Console.WriteLine("Has desaprobado");
+            }
+            Console.ReadLine();
+            */
+            /*
+            * 5)Verificacion de contrasenia:
+            * Pregunta: Ingresa una contrasenia para verificar si es correcta
+            * Variables: string (contrasenia)
+            * Condicionales: if-else
+            */
+            /*
+            *6)Comprobacion de edad para redes sociales:
+            *Pregunta: Ingresa tu edad para saber si puedes crear una cuenta en redes sociales
+            *Variables: byte (edad)
+            * Condicionales: if-else
+            */
+            /*
+            *7)Calculo de impuestos:
+            *Pregunta: Ingresa tu salario mensual para calcular tus impuestos
+            *Variables: double(salario)
+            * Condicionales: if-else
+            */
+            /*
+            *8)Control de acceso a un bar:
+            *Pregunta: Ingresa tu nombre y edad para determinar si puedes entrar a un bar
+            *Variables: string(nombre), int(edad)
+            * Condicionales: if-else
+            */
+            /*
+            *9)Verificacion de asistencia a clase:
+            *Pregunta: Ingresa el numero de veces que asiste a clase para determinar 
+            *si has alcanzado el minimo requerido
+            *Variables: int(asistencias)
+            * Condicionales: if-else
+            */
+            /*
+            *10)Validacion de numero de telefono:
+            *Pregunta: Ingresa tu numero de telefono para verificar si es valido
+            *Variables: string(numero de telefono).
+            * Condicionales: if-else
+            */
+            /*
+            *11)Calculo de descuento en tienda:
+            *Pregunta: Ingresa el monto de tu compra para calcular el descuento aplicable
+            *Variables: double (monto de compra)
+            * Condicionales: if-else
+            */
+            /*
+            *12)Verificacion de disponibilidad de producto:
+            *Pregunta: Ingresa la cantidad de un producto para verificar si esta disponible en inventario
+            *Variables: int(cantidad de producto)
+            * Condicionales: if-else
+            */
+            /*
+            *13)Aprobacion de un credito:
+            *Pregunta: Ingresa tu puntaje de credito para determinar si eres elegible para un prestamo
+            *Variables: int (puntaje de credito)
+            * Condicionales: if-else
+            */
+            /*
+            *14)Validacion de correo electronico :
+            *Pregunta: Ingresa tu correo electronico para verificar si tiene un formato valido
+            *Variables: string (correo electronico)
+            * Condicionales: if-else
+            */
+            /*
+            *15)Comprobacion de disponibilidad :
+            *Pregunta: Ingresa el numero de asientos que deseas reservar para verificar si estan disponibles
+            *Variables: int (cantidad de asientos)
+            * Condicionales: if-else
+            */
+
         }
     }
 }
