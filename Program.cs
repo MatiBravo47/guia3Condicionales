@@ -152,6 +152,7 @@ namespace Guia3
             *Variables: string(nombre), int(edad)
             * Condicionales: if-else
             */
+            /*
             string nombre;
             int edad;
             Console.WriteLine("Ingrese su nombre");
@@ -167,6 +168,7 @@ namespace Guia3
                 Console.WriteLine("No puede entrar");
             }
             Console.ReadLine();
+            */
             /*
             *9)Verificacion de asistencia a clase:
             *Pregunta: Ingresa el numero de veces que asiste a clase para determinar 
@@ -174,6 +176,18 @@ namespace Guia3
             *Variables: int(asistencias)
             * Condicionales: if-else
             */
+            int asistencias;
+            Console.WriteLine("Ingrese la cantidad de asistencias");
+            asistencias = int.Parse(Console.ReadLine());
+            if (asistencias >= 50)
+            {
+                Console.WriteLine("Superaste el minimo de asistencias requerido");
+            }
+            else
+            {
+                Console.WriteLine("No superaste el minimo de asistencias requerido");
+            }
+            Console.ReadLine();
             /*
             *10)Validacion de numero de telefono:
             *Pregunta: Ingresa tu numero de telefono para verificar si es valido
