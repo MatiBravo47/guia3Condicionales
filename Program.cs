@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlTypes;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,7 +64,18 @@ namespace Guia3
              * Variables: int (edad)
              * Condicionales: if-else
              */
-
+            int edad;
+            Console.WriteLine("Ingrese su edad");
+            edad = int.Parse(Console.ReadLine());
+            if (edad >=18) 
+            {
+                Console.WriteLine("Tiene derecho a un aumento");
+            }
+            else
+            {
+                Console.WriteLine("No tiene derecho a un aumento");
+            }
+            Console.ReadLine();
             /*
              * 4)Calificacion aprobatoria:
              * Pregunta: Ingresa tu califacion para saber si has aprobado
@@ -90,6 +102,21 @@ namespace Guia3
             * Variables: string (contrasenia)
             * Condicionales: if-else
             */
+            string contra = "idra1234";
+            string contrasenia;
+            Console.WriteLine("Ingrese la contrasenia");
+            contrasenia = Console.ReadLine();
+            if (contra == contrasenia)
+            {
+                Console.WriteLine("La contrasenia es correcta");
+            }
+            else
+            {
+                Console.WriteLine("La contrasenia es incorrecta");
+            }
+            Console.ReadLine();
+
+
             /*
             *6)Comprobacion de edad para redes sociales:
             *Pregunta: Ingresa tu edad para saber si puedes crear una cuenta en redes sociales
