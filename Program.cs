@@ -5,6 +5,7 @@ using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 
 namespace Guia3
 {
@@ -176,6 +177,7 @@ namespace Guia3
             *Variables: int(asistencias)
             * Condicionales: if-else
             */
+            /*
             int asistencias;
             Console.WriteLine("Ingrese la cantidad de asistencias");
             asistencias = int.Parse(Console.ReadLine());
@@ -188,11 +190,27 @@ namespace Guia3
                 Console.WriteLine("No superaste el minimo de asistencias requerido");
             }
             Console.ReadLine();
+            */
             /*
             *10)Validacion de numero de telefono:
             *Pregunta: Ingresa tu numero de telefono para verificar si es valido
             *Variables: string(numero de telefono).
             * Condicionales: if-else
+            */
+            /*
+            string telefono;
+            Console.WriteLine("Ingrese numero de telefono sin 0 ni 15");
+            telefono = Console.ReadLine();
+            int longitud = telefono.Length;
+            if (longitud == 10)
+            {
+                Console.WriteLine("El telefono es correcto");
+            } 
+            else
+            {
+                Console.WriteLine("El telefono es incorrecto");
+            }
+            Console.ReadLine();
             */
             /*
             *11)Calculo de descuento en tienda:
@@ -201,16 +219,59 @@ namespace Guia3
             * Condicionales: if-else
             */
             /*
+            double montoCompra;
+            Console.WriteLine("Ingrese monto de la compra");
+            montoCompra = Double.Parse(Console.ReadLine());
+            if (montoCompra >= 200000) 
+            {
+                Console.WriteLine("Tiene descuento del 30%");
+            }
+            else
+            {
+                Console.WriteLine("No tiene descuento del 30%");
+            }
+            Console.ReadLine();
+            */
+            /*
             *12)Verificacion de disponibilidad de producto:
             *Pregunta: Ingresa la cantidad de un producto para verificar si esta disponible en inventario
             *Variables: int(cantidad de producto)
             * Condicionales: if-else
             */
             /*
+            int total = 50;
+            int cantidadProducto;
+            Console.WriteLine("Ingrese la cantidad");
+            cantidadProducto = int.Parse(Console.ReadLine());
+            if (cantidadProducto > total)
+            {
+                Console.WriteLine("No esta disponible esa cantidad");
+            }
+            else 
+            {
+                Console.WriteLine("Esta disponible");
+            }
+            Console.ReadLine();
+            */
+            /*
             *13)Aprobacion de un credito:
             *Pregunta: Ingresa tu puntaje de credito para determinar si eres elegible para un prestamo
             *Variables: int (puntaje de credito)
             * Condicionales: if-else
+            */
+            /*
+            int puntajeCredito;
+            Console.WriteLine("Ingrese su puntaje de credito");
+            puntajeCredito = int.Parse(Console.ReadLine());
+            if (puntajeCredito >= 100)
+            {
+                Console.WriteLine("Puede sacar un prestamo");
+            }
+            else
+            {
+                Console.WriteLine("No puede sacar un prestamo");
+            }
+            Console.ReadLine();
             */
             /*
             *14)Validacion de correo electronico :
@@ -224,7 +285,18 @@ namespace Guia3
             *Variables: int (cantidad de asientos)
             * Condicionales: if-else
             */
-
+            int cantidadAsientos;
+            Console.WriteLine("Ingrese cantidad de asientos que quiere reservar");
+            cantidadAsientos = int.Parse(Console.ReadLine());
+            if (cantidadAsientos <= 50)
+            {
+                Console.WriteLine("Estan disponibles");
+            }
+            else
+            {
+                Console.WriteLine("No estan disponibles");
+            }
+            Console.ReadLine();
         }
     }
 }
