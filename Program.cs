@@ -64,6 +64,7 @@ namespace Guia3
              * Variables: int (edad)
              * Condicionales: if-else
              */
+            /*
             int edad;
             Console.WriteLine("Ingrese su edad");
             edad = int.Parse(Console.ReadLine());
@@ -76,6 +77,7 @@ namespace Guia3
                 Console.WriteLine("No tiene derecho a un aumento");
             }
             Console.ReadLine();
+            */
             /*
              * 4)Calificacion aprobatoria:
              * Pregunta: Ingresa tu califacion para saber si has aprobado
@@ -102,6 +104,7 @@ namespace Guia3
             * Variables: string (contrasenia)
             * Condicionales: if-else
             */
+            /*
             string contra = "idra1234";
             string contrasenia;
             Console.WriteLine("Ingrese la contrasenia");
@@ -115,13 +118,27 @@ namespace Guia3
                 Console.WriteLine("La contrasenia es incorrecta");
             }
             Console.ReadLine();
-
+            */
 
             /*
             *6)Comprobacion de edad para redes sociales:
             *Pregunta: Ingresa tu edad para saber si puedes crear una cuenta en redes sociales
             *Variables: byte (edad)
             * Condicionales: if-else
+            */
+            /*
+            byte edad;
+            Console.WriteLine("Ingrese edad");
+            edad = Byte.Parse(Console.ReadLine());
+            if (edad >= 18)
+            {
+                Console.WriteLine("Puede crear una cuenta");
+            }
+            else
+            {
+                Console.WriteLine("No puede crear una cuenta");
+            }
+            Console.ReadLine();
             */
             /*
             *7)Calculo de impuestos:
@@ -135,6 +152,21 @@ namespace Guia3
             *Variables: string(nombre), int(edad)
             * Condicionales: if-else
             */
+            string nombre;
+            int edad;
+            Console.WriteLine("Ingrese su nombre");
+            nombre = Console.ReadLine();
+            Console.WriteLine("Ingrese edad");
+            edad = int.Parse(Console.ReadLine());
+            if (edad > 17) 
+            {
+                Console.WriteLine("Puede entrar");
+            }
+            else
+            {
+                Console.WriteLine("No puede entrar");
+            }
+            Console.ReadLine();
             /*
             *9)Verificacion de asistencia a clase:
             *Pregunta: Ingresa el numero de veces que asiste a clase para determinar 
